@@ -1,0 +1,32 @@
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Local data and generated artifacts
+dataset_/
+data/
+datasets/
+logs/
+runs/
+test_tb/logs/
+*.pt
+*.pth
+*.ckpt
+events.out.tfevents.*
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+credentials*
+secrets*
+Thumbs.db
+.DS_Store
+
+# Personal planning is kept outside the public repository
+路线图/
